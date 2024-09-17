@@ -6,11 +6,11 @@
 
 ## Tasks Completed
 
--- Added credentials, my database name, PostgreSQL username, and PostgreSQL password to .env file
--- Created schema, models and seed commands
--- Developed and tested API GET routes in Insomnia Core for categories, products, or tags
--- Developed and tested API POST, PUT and DELETE routes and tested in Insomnia Core
-to ensure user is able to successfully create, update, and delete data in my database
+- Added credentials, my database name, PostgreSQL username, and PostgreSQL password to .env file-- Created schema, models and seed commands
+
+- Developed and tested API GET routes in Insomnia Core for categories, products, or tags
+
+- Developed and tested API POST, PUT and DELETE routes and tested in Insomnia Core to ensure user is able to successfully create, update, and delete data in my database
 
 ## Installation
 
@@ -29,7 +29,7 @@ to ensure user is able to successfully create, update, and delete data in my dat
 ![ORM E-commerce back end screenshot vscode](public/assets/images/module13_screenshot1.png)
 ![ORM E-commerce back end screenshot insomnia](public/assets/images/module13_screenshot2.png)
 
-[![Watch the video](https://img.youtube.com/vi/strUyeMHkMQ?si=rJchlfj2Wfmqn8id.jpg)](https://youtu.be/strUyeMHkMQ?si=rJchlfj2Wfmqn8id)
+[![Watch the video](public/assets/images/module13_video.png)](https://youtu.be/strUyeMHkMQ?si=rJchlfj2Wfmqn8id)
 
 ## Credits
 
