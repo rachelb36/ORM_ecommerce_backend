@@ -8,9 +8,9 @@
 
 -- Added credentials, my database name, PostgreSQL username, and PostgreSQL password to .env file
 -- Created schema, models and seed commands
--- Developed API GET routes in Insomnia Core for categories, products, or tags
--- Developemed API POST, PUT, and DELETE routes and tested in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
+-- Developed and tested API GET routes in Insomnia Core for categories, products, or tags
+-- Developed and tested API POST, PUT and DELETE routes and tested in Insomnia Core
+to ensure user is able to successfully create, update, and delete data in my database
 
 ## Installation
 
@@ -18,14 +18,18 @@ THEN I am able to successfully create, update, and delete data in my database
 
 - install npm using `npm i` in terminal
 
-- seed the database with 'npm run seed' in terminal
+- seed the database with `npm run` seed in terminal
 
-- run application using `npm start'
+- run application using `npm start`
+
+- open Insomnia Core and test routes
 
 ## Usage
 
-![NOTE TAKER APPLICATION screenshot](public/assets/images/screenshot_1.png)
-![NOTE TAKER APPLICATION screenshot](public/assets/images/screenshot_2.png)
+![ORM E-commerce back end screenshot vscode](public/assets/images/module13_screenshot1.png)
+![ORM E-commerce back end screenshot insomnia](public/assets/images/module13_screenshot2.png)
+
+[![Watch the video](https://img.youtube.com/vi/strUyeMHkMQ?si=rJchlfj2Wfmqn8id.jpg)](https://youtu.be/strUyeMHkMQ?si=rJchlfj2Wfmqn8id)
 
 ## Credits
 
@@ -33,11 +37,9 @@ THEN I am able to successfully create, update, and delete data in my database
 
 Starter code was used to begin this project, which can be found at:
 
--- E-commerce Back End Starter Code <https://github.com/coding-boot-camp/bookish-sniffle>
-
-References:
-<>
+-- E-commerce Back End Starter Code
+<https://github.com/coding-boot-camp/bookish-sniffle>
 
 ## License
 
-- LicenseDistributed under the MIT License. See LICENSE.txt for more information.
+- License Distributed under the MIT License. See LICENSE.txt for more information.
