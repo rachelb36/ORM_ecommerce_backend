@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
       res.json(data); // respond with all found tags and their products
     })
     .catch((err) => {
-      res.status(400).json(err); // handle errors and send 400 status code
+      res.status(400).json(err); // handle errors
     });
 });
 
@@ -30,7 +30,7 @@ router.get('/:id', (req, res) => {
   // be sure to include its associated Product data
   Tag.findOne({
     where: {
-      id: req.params.id, // get tag id from URL parameters
+      id: req.params.id, // get tag id
     },
     attributes: ['id', 'tag_name'], // select tag ID and tag name
     include: [
@@ -44,14 +44,14 @@ router.get('/:id', (req, res) => {
       res.json(data); // respond with the tag and its associated products
     })
     .catch((err) => {
-      res.status(400).json(err); // handle errors and send 400 status code
+      res.status(400).json(err); // handle errors
     });
 });
 
 // POST a new tag
 router.post('/', (req, res) => {
   // create a new tag
-  Tag.create({ tag_name: req.body.tag_name }) // create a new tag with the name provided in the request body
+  Tag.create({ tag_name: req.body.tag_name }) // create a new tag_nem in equest body
     .then((data) => {
       res.json(data); // respond with the created tag
     })
@@ -65,14 +65,14 @@ router.put('/:id', (req, res) => {
   // update a tag's name by its `id` value
   Tag.update(req.body, {
     where: {
-      id: req.params.id, // get the tag id from URL parameters
+      id: req.params.id, // get the tag id
     },
   })
     .then((data) => {
       res.json(data); // respond with the updated tag
     })
     .catch((err) => {
-      res.status(400).json(err); // handle errors and send 400 status code
+      res.status(400).json(err); // handle errors
     });
 });
 
@@ -81,14 +81,14 @@ router.delete('/:id', (req, res) => {
   // delete one tag by its `id` value
   Tag.destroy({
     where: {
-      id: req.params.id, // get the tag id from URL parameters
+      id: req.params.id, // get the tag id in URL
     },
   })
     .then((data) => {
-      res.json(data); // respond with the result of the deletion
+      res.json(data); // respond w result
     })
     .catch((err) => {
-      res.status(400).json(err); // handle errors and send 400 status code
+      res.status(400).json(err); // handle errors
     });
 });
 
