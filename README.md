@@ -31,11 +31,12 @@
 ![ORM E-commerce back end screenshot vscode](public/assets/images/module13_screenshot1.png)
 ![ORM E-commerce back end screenshot insomnia](public/assets/images/module13_screenshot2.png)
 
-[![Watch the video](p)(https://youtu.be/strUyeMHkMQ?si=V65hXfH7HSV9diDM)]
+
 
 ## Click Image To Watch Video
 
 [![ORM E-commerce Back End Challenge](public/assets/images/module13_video.png)](https://youtu.be/strUyeMHkMQ?si=V65hXfH7HSV9diDM)
+[![Watch the video](https://youtu.be/strUyeMHkMQ?si=V65hXfH7HSV9diDM)]
 
 ## Credits
 
